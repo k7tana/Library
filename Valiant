@@ -165,7 +165,7 @@ function library:Watermark(text)
 
         TopLine.Name = "TopLine"
         TopLine.Parent = WaterMarkHolder
-        TopLine.BackgroundColor3 = Color3.fromRGB(255, 100, 0)
+        TopLine.BackgroundColor3 = library.theme.Theme
         TopLine.BorderSizePixel = 0
         TopLine.Size = UDim2.new(1, 0, 0.0299999993, 0)
 
@@ -191,3 +191,5 @@ function library:Watermark(text)
 end
 
 return library
+
+local wm = library:Watermark("GayTest")
