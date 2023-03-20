@@ -191,5 +191,3 @@ function library:Watermark(text)
 end
 
 return library
-
-local wm = library:Watermark("GayTest")
